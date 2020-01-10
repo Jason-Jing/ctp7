@@ -6,7 +6,7 @@
 class CTdApi : public CThostFtdcTraderApi {
 public:
     CTdApi() {};
-    ~CTdApi() {};
+    virtual ~CTdApi() {};
 
 private:
     CThostFtdcTraderApi *m_pApi;

@@ -28,7 +28,7 @@ include_directories(../include)
 link_directories(../lib)
 
 set(SRC_FILES ctp7.cpp CMdSpi.cpp CTdApi.cpp)
-set(HEADER_FILES CMdSpi.h CTdApi.h)
+set(HEADER_FILES ctp7.h CMdSpi.h CTdApi.h)
 
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
